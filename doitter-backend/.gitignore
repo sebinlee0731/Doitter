@@ -1,0 +1,54 @@
+# Gradle
+.gradle/
+build/
+out/
+target/
+HELP.md
+!gradle/wrapper/gradle-wrapper.jar
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# STS / Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+log/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment & Secrets
+.env
+*.yml
+!application-example.yml
+application-local.properties
+
+# Node (혹시 프론트 붙을 경우 대비)
+node_modules/
+dist/
+
+# Others
+*.class
